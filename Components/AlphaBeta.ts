@@ -1,6 +1,6 @@
 
 import { Table, Move } from "./Table";
-import { Color } from "../Enum/Color";
+import { Color } from "../Enums/Color";
 
 let bestMoves: Map<number, Move>, maximisingPlayer: Color;
 

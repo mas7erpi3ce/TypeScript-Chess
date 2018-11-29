@@ -1,8 +1,8 @@
 
-import { Color } from "../../Enum/Color";
+import { Color } from "../../Enums/Color";
 import { Cell } from "../Cell";
-import { Direction } from "../../Enum/Direction";
-import { PieceType } from "../../Enum/PieceType";
+import { Direction } from "../../Enums/Direction";
+import { PieceType } from "../../Enums/PieceType";
 import { Table } from "../Table";
 
 

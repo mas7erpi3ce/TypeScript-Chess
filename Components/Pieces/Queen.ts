@@ -1,8 +1,8 @@
 import { Piece } from "./Piece";
-import { Color } from "../../Enum/Color";
+import { Color } from "../../Enums/Color";
 import { Cell } from "../Cell";
-import { PieceType } from "../../Enum/PieceType";
-import { Direction } from "../../Enum/Direction";
+import { PieceType } from "../../Enums/PieceType";
+import { Direction } from "../../Enums/Direction";
 import { Table } from "../Table";
 
 const queensMoveInstructions = [

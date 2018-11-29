@@ -1,5 +1,5 @@
 
-import { Color } from "./Enum/Color";
+import { Color } from "./Enums/Color";
 import { Rook } from "./Components/Pieces/Rook";
 import { Piece } from "./Components/Pieces/Piece";
 import { Cell } from "./Components/Cell";

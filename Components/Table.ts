@@ -1,5 +1,5 @@
 
-import { Color } from "../Enum/Color";
+import { Color } from "../Enums/Color";
 import { Piece, PossibleMove } from "./Pieces/Piece";
 import { Cell } from "./Cell";
 import { Pawn } from "./Pieces/Pawn";
