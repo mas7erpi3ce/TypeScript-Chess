@@ -1,10 +1,10 @@
 
 import { Piece } from "./Piece";
-import { Color } from "../Enum/Color";
-import { PieceType } from "../Enum/PieceType";
-import { Direction } from "../Enum/Direction";
-import { Cell } from "./Cell";
-import { Table } from "./Table";
+import { Color } from "../../Enum/Color";
+import { PieceType } from "../../Enum/PieceType";
+import { Direction } from "../../Enum/Direction";
+import { Cell } from "../Cell";
+import { Table } from "../Table";
 
 const bishopsMoveInstructions: Direction[][] = [
     [Direction.STRAIGHT_UP_RIGHT],

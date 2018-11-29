@@ -1,9 +1,9 @@
 
-import { Color } from "../Enum/Color";
-import { Cell } from "./Cell";
-import { Direction } from "../Enum/Direction";
-import { PieceType } from "../Enum/PieceType";
-import { Table } from "./Table";
+import { Color } from "../../Enum/Color";
+import { Cell } from "../Cell";
+import { Direction } from "../../Enum/Direction";
+import { PieceType } from "../../Enum/PieceType";
+import { Table } from "../Table";
 
 
 interface PieceParams {

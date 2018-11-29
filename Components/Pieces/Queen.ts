@@ -1,9 +1,9 @@
 import { Piece } from "./Piece";
-import { Color } from "../Enum/Color";
-import { Cell } from "./Cell";
-import { PieceType } from "../Enum/PieceType";
-import { Direction } from "../Enum/Direction";
-import { Table } from "./Table";
+import { Color } from "../../Enum/Color";
+import { Cell } from "../Cell";
+import { PieceType } from "../../Enum/PieceType";
+import { Direction } from "../../Enum/Direction";
+import { Table } from "../Table";
 
 const queensMoveInstructions = [
     [Direction.STRAIGHT_UP],

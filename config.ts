@@ -1,13 +1,13 @@
 
 import { Color } from "./Enum/Color";
-import { Rook } from "./Components/Rook";
-import { Piece } from "./Components/Piece";
+import { Rook } from "./Components/Pieces/Rook";
+import { Piece } from "./Components/Pieces/Piece";
 import { Cell } from "./Components/Cell";
 import { Table } from "./Components/Table";
-import { Bishop } from "./Components/Bishop";
-import { Knight } from "./Components/Knight";
-import { King } from "./Components/King";
-import { Queen } from "./Components/Queen";
+import { Bishop } from "./Components/Pieces/Bishop";
+import { Knight } from "./Components/Pieces/Knight";
+import { King } from "./Components/Pieces/King";
+import { Queen } from "./Components/Pieces/Queen";
 
 export const figures: ((color: Color, cell: Cell, table: Table) => Piece)[] = [
 

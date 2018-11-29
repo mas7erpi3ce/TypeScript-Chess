@@ -1,5 +1,5 @@
 
-import { Piece } from "./Piece";
+import { Piece } from "./Pieces/Piece";
 import { GameHistory } from "./Table";
 import { Direction } from "../Enum/Direction";
 

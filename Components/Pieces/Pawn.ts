@@ -1,10 +1,10 @@
 
 import { Piece } from "./Piece";
-import { Color } from "../Enum/Color";
-import { Cell } from "./Cell";
-import { PieceType } from "../Enum/PieceType";
-import { Direction } from "../Enum/Direction";
-import { Table } from "./Table";
+import { Color } from "../../Enum/Color";
+import { Cell } from "../Cell";
+import { PieceType } from "../../Enum/PieceType";
+import { Direction } from "../../Enum/Direction";
+import { Table } from "../Table";
 
 const pawnsMoveInstructions = (color: Color): Direction[][] => [
     color === Color.BLACK ? [Direction.ONE_DOWN] : [Direction.ONE_UP]

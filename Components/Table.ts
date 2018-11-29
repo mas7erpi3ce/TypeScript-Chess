@@ -1,8 +1,8 @@
 
 import { Color } from "../Enum/Color";
-import { Piece, PossibleMove } from "./Piece";
+import { Piece, PossibleMove } from "./Pieces/Piece";
 import { Cell } from "./Cell";
-import { Pawn } from "./Pawn";
+import { Pawn } from "./Pieces/Pawn";
 import { figures } from "../config";
 
 interface TableParams {

@@ -1,10 +1,10 @@
 
 import { Piece } from "./Piece";
-import { Direction } from "../Enum/Direction";
-import { Color } from "../Enum/Color";
-import { Cell } from "./Cell";
-import { PieceType } from "../Enum/PieceType";
-import { Table } from "./Table";
+import { Direction } from "../../Enum/Direction";
+import { Color } from "../../Enum/Color";
+import { Cell } from "../Cell";
+import { PieceType } from "../../Enum/PieceType";
+import { Table } from "../Table";
 
 const knightsMoveInstructions: Direction[][] = [
     [Direction.ONE_UP, Direction.ONE_UP, Direction.ONE_LEFT],
