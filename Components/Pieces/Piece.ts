@@ -4,6 +4,7 @@ import { Cell } from "../Cell";
 import { Direction } from "../../Enums/Direction";
 import { PieceType } from "../../Enums/PieceType";
 import { Table } from "../Table";
+import { PossibleMove } from "../../Interfaces/PossibleMove";
 
 
 interface PieceParams {
@@ -23,12 +24,6 @@ interface BlockedBy {
     threat: Piece;
     attackerTrack: Cell[];
 }
-
-export interface PossibleMove {
-    toCell: Cell;
-    pieceToTake?: Piece;
-}
-
 
 export abstract class Piece implements PieceParams {
 

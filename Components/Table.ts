@@ -1,9 +1,12 @@
 
 import { Color } from "../Enums/Color";
-import { Piece, PossibleMove } from "./Pieces/Piece";
+import { Piece } from "./Pieces/Piece";
 import { Cell } from "./Cell";
 import { Pawn } from "./Pieces/Pawn";
 import { figures } from "../config";
+import { GameHistory } from "../Interfaces/GameHistory";
+import { PossibleMove } from "../Interfaces/PossibleMove";
+import { Move } from "../Interfaces/Move";
 
 interface TableParams {
     piecesInGame: Map<Color, Piece[]>;
@@ -17,18 +20,6 @@ interface TableParams {
     generateMoves: () => Move[];
     move: (move: Move) => void;
     eval: (maximisingPlayer: Color) => number;
-}
-
-export interface Move {
-    piece: Piece;
-    possibleMove: PossibleMove;
-}
-
-export interface GameHistory {
-    takenBy: Piece;
-    fromCell: Cell;
-    toCell: Cell;
-    taken?: Piece;
 }
 
 export class Table implements TableParams {

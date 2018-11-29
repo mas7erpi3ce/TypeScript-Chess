@@ -1,7 +1,7 @@
 
 import { Piece } from "./Pieces/Piece";
-import { GameHistory } from "./Table";
 import { Direction } from "../Enums/Direction";
+import { GameHistory } from "../Interfaces/GameHistory";
 
 interface CellParams {
     left: Cell;
