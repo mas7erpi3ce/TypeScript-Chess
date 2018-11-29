@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "removeComments": true,
+    "jsx": "preserve",
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "plugins": [
+      {
+        "name": "tslint-language-service"
+      }
+    ],
+    "outFile": "./target/chess.js"
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
